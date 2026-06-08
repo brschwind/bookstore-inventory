@@ -1,0 +1,29 @@
+{
+  "name": "bookstore-inventory-backend",
+  "version": "1.0.0",
+  "description": "Backend API for bookstore inventory management with Square integration",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "keywords": ["bookstore", "inventory", "square"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "square": "^35.0.0",
+    "pg": "^8.10.0",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0",
+    "joi": "^17.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0"
+  }
+}
